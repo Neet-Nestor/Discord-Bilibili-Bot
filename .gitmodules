@@ -1,0 +1,3 @@
+[submodule "dependencies/Bilibili_video_download"]
+	path = dependencies/Bilibili_video_download
+	url = https://github.com/Henryhaohao/Bilibili_video_download
