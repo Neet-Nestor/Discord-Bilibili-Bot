@@ -1,0 +1,10 @@
+pynacl==1.2.1
+discord.py[voice]==1.2.5
+pip
+youtube_dl
+colorlog
+cffi --only-binary all; sys_platform == 'win32'
+moviepy==0.2.3.2
+requests
+aiohttp
+aiofiles
