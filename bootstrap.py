@@ -511,7 +511,7 @@ class EnsurePip(SetupTask):
 
 
 class GitCloneMusicbot(SetupTask):
-    GIT_URL = "https://github.com/Just-Some-Bots/MusicBot.git"
+    GIT_URL = "https://github.com/Neet-Nestor/Discord-Bilibili-Bot.git"
     GIT_CMD = "git clone --depth 10 --no-single-branch %s %s" % (GIT_URL, INSTALL_DIR)
 
     def download(self):
@@ -571,7 +571,7 @@ class SetupMusicbot(SetupTask):
 
 def preface():
     print(" MusicBot Bootstrapper (v0.1) ".center(50, '#'))
-    print("This script will install the MusicBot into a folder called '%s' in your current directory." % INSTALL_DIR,
+    print("This script will install the DiscordBilibiliBot into a folder called '%s' in your current directory." % INSTALL_DIR,
           "\nDepending on your system and environment, several packages and dependencies will be installed.",
           "\nTo ensure there are no issues, you should probably run this script as an administrator.")
     print()
@@ -581,7 +581,7 @@ def preface():
 
 def main():
     preface()
-    print("Bootstrapping MusicBot on Python %s." % '.'.join(list(map(str, PY_VERSION))))
+    print("Bootstrapping DiscordBilibiliBot on Python %s." % '.'.join(list(map(str, PY_VERSION))))
 
     EnsurePython.run()
     EnsureBrew.run()
