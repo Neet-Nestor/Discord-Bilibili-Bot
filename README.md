@@ -6,9 +6,11 @@ Discord Bilibili Bot is a MusicBot that is extended from [MusicBot](https://gith
 
 ![Main](https://i.imgur.com/FWcHtcS.png)
 
-## Directly invite the hosted bot to your channel
+## Invite running bilibili Bot to your server (deprecated)
 
-There is a running instance of this discord Bilibili bot called Bilibili Music Bot available for you to directly use in your channel. Simply invite the bot into your server using [this link](https://discordapp.com/oauth2/authorize?client_id=714076313627131946&scope=bot&permissions=70274048). The command prefix is `>` and for all the commands available, please type `>help` in your channel.
+~~There is a running instance of this discord Bilibili bot called Bilibili Music Bot available for you to directly use in your channel. Simply invite the bot into your server using [this link](https://discordapp.com/oauth2/authorize?client_id=714076313627131946&scope=bot&permissions=70274048). The command prefix is `>` and for all the commands available, please type `>help` in your channel.~~
+
+The running instance of this discord bot has been stopped due to high server maintainance cost. If you'd like to use it, please follow the instruction below to deploy your own one.
 
 ## Create your own bilibili bot
 
